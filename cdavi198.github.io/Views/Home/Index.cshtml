@@ -1,31 +1,94 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<!DOCTYPE html>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<title>Conner Davis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="~/Content/BaseLayout.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+<style>
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Lato", sans-serif
+    }
+</style>
+<html>
+<body class="cd-backer-grey">
+    <!--Page Container-->
+    <div class="cd-content cd-margin-top" style="max-width:1400px">
+        <!--The Grid-->
+        <div class="cd-row-padding">
+            <!--Right Column-->
+            <div class="right-col">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                <div class="cd-white cd-text-grey cd-card-4">
+
+                    <div class="cd-display-container">
+                        <img src="~/Content/apple-books-computers-115655.jpg" style="width:100%" alt="Apple computers" />
+                    </div>
+                    <div class="cd-container">
+                        <p class="cd-name-title">Conner Davis</p>
+                        <p>Web Developer Hopeful</p>
+                        <p>Atlanta, GA</p>
+                        <p>conneralexdavis@gmail.com</p>
+                        <hr />
+                        <p class="cd-large"><a href="https://github.com/cdavi198"><b>Projects</b></a></p>
+                        <hr />
+
+                        <p class="cd-large cd-hover-text-grey"><b>Languages</b></p>
+                        <p>C#</p>
+                        <div class="cd-round-xlarge cd-teal" style="height: 24px;width:100%"></div>
+                        <p>HTML</p>
+                        <div class="cd-round-xlarge cd-teal" style="height: 24px;width:60%"></div>
+                        <p>Javascript</p>
+                        <div class="cd-round-xlarge cd-teal" style="height: 24px;width:30%"></div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="left-col">
+                <div class="cd-container cd-card container-bottom-margin cd-white">
+                    <h2 class="cd-text-grey cd-padding-16">Work Experience</h2>
+                    <div class="cd-container cd-text-grey">
+                        <h5 class="cd-text-teal">CINC - Commissions Inc./Helpdesk Analyst</h5>
+                        <h6 class="cd-text-teal">2017 - <span class="cd-tags cd-round cd-teal">Current</span></h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut arcu a arcu semper ultrices. Proin turpis turpis,
+                            interdum ut laoreet in, blandit fringilla sapien. Sed maximus urna vitae odio hendrerit, ac viverra ante imperdiet.
+                            Curabitur finibus arcu purus, in facilisis lorem cursus eu. Ut ut metus finibus, eleifend libero ut, efficitur neque.
+                            Cras laoreet massa at suscipit semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                        <hr />
+                    </div>
+
+                    <div class="cd-container cd-text-gray">
+                        <h5 class="cd-text-teal">The Lovett School/Helpdesk Analyst</h5>
+                        <h6 class="cd-text-teal">2014 - 2017</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut arcu a arcu semper ultrices. Proin turpis turpis,
+                            interdum ut laoreet in, blandit fringilla sapien. Sed maximus urna vitae odio hendrerit, ac viverra ante imperdiet.
+                            Curabitur finibus arcu purus, in facilisis lorem cursus eu. Ut ut metus finibus, eleifend libero ut, efficitur neque.
+                            Cras laoreet massa at suscipit semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                        <hr />
+                    </div>
+                </div>
+                <div class="cd-container cd-card cd-white cd-text-grey cd-padding-16">
+                    <h2 class="cd-text-gray cd-padding-16">Education</h2>
+                    <div class="cd-container">
+                        <h5 class="cd-text-teal">Kennesaw State University/Bachelor of Business Information Systems</h5>
+                        <h6 class="cd-text-blue-gray">2011 - 2015</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut arcu a arcu semper ultrices. Proin turpis turpis,
+                            interdum ut laoreet in, blandit fringilla sapien. Sed maximus urna vitae odio hendrerit, ac viverra ante imperdiet.
+                            Curabitur finibus arcu purus, in facilisis lorem cursus eu. Ut ut metus finibus, eleifend libero ut, efficitur neque.
+                            Cras laoreet massa at suscipit semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p><br />
+                        <hr />
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+
+</body>
+</html>
