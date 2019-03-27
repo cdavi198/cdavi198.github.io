@@ -13,5 +13,17 @@ namespace cdavi198.github.io.Controllers
         {
             return View();
         }
+
+        public ActionResult GoTRules()
+        {
+            return View();
+        }
+
+        public ActionResult GoTScoring()
+        {
+            return View();
+        }
     }
+
+    
 }
