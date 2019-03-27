@@ -26,5 +26,12 @@ namespace cdavi198.github.io.Controllers
 
             return View();
         }
+
+        public ActionResult GoTHome()
+        {
+            ViewBag.Message = "Game of Thrones page.";
+
+            return View();
+        }
     }
 }
