@@ -45,7 +45,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-content: center;
-    padding: 8px;
+    padding: 0px 15px 0px 15px;
     font-size: 14px;
     color: black;
     line-height: 1;
