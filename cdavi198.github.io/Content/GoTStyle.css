@@ -36,7 +36,7 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    margin: .3em;
+    margin: auto;
     background-color: white;
     
 }
