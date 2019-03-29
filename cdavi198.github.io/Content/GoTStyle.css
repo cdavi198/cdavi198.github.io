@@ -1,11 +1,7 @@
-﻿body {
+body {
     margin:0;
     padding: 0;
     background: white;
-}
-
-img { 
-    display: inline-block;
 }
 
 .got-container {
@@ -17,14 +13,13 @@ img {
 .got-title {
     text-align: center;
     font-family: 'Cinzel', sans-serif;
-    font-size: 3.5em;
     color: white;
     background-color: black;
     line-height: 80px;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .got-character-font {
@@ -54,12 +49,17 @@ h1 {
     font-size: 14px;
     color: black;
     line-height: 1;
-    border-radius: 5px;
+    border-radius: 7px;
     text-align: center;
     border: 1px solid white;
     align-items: center;
     width: 8vw;
     height: 16.5vh;
+    
+}
+
+img {
+    display: inline-block;
 }
 
 .grid-number:hover {
@@ -82,14 +82,14 @@ h1 {
     list-style: none;
     background-color: white;
     text-align: left;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     display: inline-block;
 }
 
 .got-navbar li {
     font-family: 'Lato', sans-serif;
-    
+    padding: 5px 5px;
     line-height: 40px;
     height: 40px;
     border-bottom: 1px solid #888;
@@ -98,14 +98,14 @@ h1 {
 .got-navbar a {
     text-decoration: none;
     color: black;
-    
+    padding: 10px 5px;
     transition: .2s background-color;
 }
 
 .got-navbar a:hover {
-        background-color: #23e036;
+        /*background-color: grey;
         border-radius: 5px;
-         
+        opacity: .5; */
         border-bottom:thin black;
     }
 
@@ -135,6 +135,7 @@ h1 {
        float: left;
        text-align: left;
        margin:auto;
+       padding: 5px 5px;
     }
 
     .got-navbar ul{
@@ -167,3 +168,16 @@ h1 {
 .got-content {
     max-width: 1200px;
 }
+
+.banner-left {
+    float: left;
+    
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    }
