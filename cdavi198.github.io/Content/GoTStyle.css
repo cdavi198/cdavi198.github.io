@@ -38,9 +38,9 @@ h1 {
 .grid-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 20px;
     grid-row-gap: 5px;
-    margin: auto;
+    margin: .3em;
     background-color: white;
     
 }
@@ -49,6 +49,7 @@ h1 {
     background-color: white;
     display: grid;
     justify-content: center;
+    align-content: center;
     padding: 8px;
     font-size: 14px;
     color: black;
