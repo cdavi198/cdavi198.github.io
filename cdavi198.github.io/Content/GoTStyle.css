@@ -56,11 +56,12 @@ h1 {
     align-items: center;
     width: 8vw;
     height: 16.5vh;
-    
+    margin: 10px 10px 10px 10px;
 }
 
 img {
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .grid-number:hover {
