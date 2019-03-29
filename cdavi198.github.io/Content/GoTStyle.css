@@ -53,6 +53,8 @@ h1 {
     text-align: center;
     border: 1px solid white;
     align-items: center;
+    width: 8vw;
+    height: 16.5vh;
 }
 
 .grid-number:hover {
