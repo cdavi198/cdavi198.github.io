@@ -52,6 +52,7 @@ h1 {
     border-radius: 5px;
     text-align: center;
     border: 1px solid white;
+    align-items: center;
 }
 
 .grid-number:hover {
