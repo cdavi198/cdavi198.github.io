@@ -38,6 +38,7 @@ h1 {
     margin: .3em;
     background-color: white;
     align-content: center;
+    padding: 15px 15px 15px 15px;
 }
 
 .grid-number {
