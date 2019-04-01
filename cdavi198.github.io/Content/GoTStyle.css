@@ -37,29 +37,29 @@ h1 {
     grid-row-gap: 5px;
     margin: .3em;
     background-color: white;
-    align-content: center;
-    padding: 15px 15px 15px 15px;
+    
 }
 
 .grid-number {
     background-color: white;
     display: grid;
     justify-content: center;
-    padding: 0px 15px 0px 15px;
+    align-content: center;
+    padding: 15px 15px 15px 15px;
     font-size: 14px;
     color: black;
     line-height: 1;
     border-radius: 7px;
     text-align: center;
     border: 1px solid white;
-    width: 100px;
+    align-items: center;
+    width: 8vw;
     height: 16.5vh;
-    margin: auto;
+    
 }
 
 img {
     display: inline-block;
-    margin-bottom: 5px;
 }
 
 .grid-number:hover {
@@ -181,3 +181,59 @@ img {
 .grow:hover {
     transform: scale(1.1);
     }
+
+.got-round-xlarge {
+    border-radius: 16px
+    
+}
+
+.got-text-black {
+    color: black !important;
+}
+
+.got-bar-color {
+    
+    background-color: #ba1d1d;
+   
+}
+
+.got-bar-back {
+    background-color: grey;
+    width: 100%;
+    color: black;
+}
+
+.got-large {
+    font-size: 18px !important
+}
+
+.got-small {
+    font-size: 12px !important
+}
+
+.got-container, .w3-panel {
+    padding: 0.01em 16px
+}
+
+.got-container:after, .got-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .grid-padding:after, .grid-padding:before,
+.w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.got-center {
+    text-align: center
+}
+
+.got-backer-grey {
+    color: lightgray !important;
+    background-color: #e5e5e5 !important;
+}
+
+.got-banner {
+    border: 1px solid black;
+    width: 1050px;
+    height: 256px;
+    margin: auto;
+}
