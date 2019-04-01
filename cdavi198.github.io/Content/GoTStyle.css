@@ -45,7 +45,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-content: center;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 30px 15px 30px;
     font-size: 14px;
     color: black;
     line-height: 1;
@@ -55,7 +55,7 @@ h1 {
     align-items: center;
     width: 8vw;
     height: 16.5vh;
-    
+    margin: auto;
 }
 
 img {
