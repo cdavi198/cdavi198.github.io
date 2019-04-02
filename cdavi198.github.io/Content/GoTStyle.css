@@ -58,6 +58,7 @@ h1 {
 
 img {
     display: inline-block;
+    align-self: center;
 }
 
 .grid-number:hover {
