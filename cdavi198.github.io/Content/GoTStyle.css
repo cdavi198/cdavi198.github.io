@@ -37,7 +37,7 @@ h1 {
     grid-row-gap: 5px;
     margin: .3em;
     background-color: white;
-    
+    align-content: center;
 }
 
 .grid-number {
