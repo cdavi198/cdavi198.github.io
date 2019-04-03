@@ -36,7 +36,7 @@ h1 {
     grid-column-gap: 10px;
     grid-row-gap: 5px;
     /*margin: 1em;*/
-    background-color: rgb(249,250,249,.4);
+    
     
 }
 
@@ -53,7 +53,7 @@ h1 {
     border: 1px solid lightgray;
     width: 8vw;
     height: 16.5vh;
-    
+    background-color: rgb(249,250,249,.4);
 }
 
 img {
