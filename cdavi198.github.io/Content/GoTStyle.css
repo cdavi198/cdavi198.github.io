@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding: 0;
-    background: url(../../gotbackground.jpg);
+    background: url(../../gotbackground.jpg) fixed;
 }
 
 .got-container {
