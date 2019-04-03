@@ -4,6 +4,10 @@ body {
     background: url(../../gotbackground.jpg) fixed;
 }
 
+.container {
+    margin-left: 0px;
+}
+
 a {
     color: black;
 }
