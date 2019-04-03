@@ -10,6 +10,10 @@ body {
     margin-bottom: 350px;
 }
 
+.standings-back {
+    background-color: rgb(249,250,249,.4);
+}
+
 .got-title {
     text-align: center;
     font-family: 'Cinzel', sans-serif;
