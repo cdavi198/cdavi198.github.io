@@ -11,7 +11,7 @@ body {
 }
 
 .standings-back {
-    background-color: #ffffffbf;
+    background-color: rgb(249,250,249,.4);
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
