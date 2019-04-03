@@ -7,7 +7,7 @@ body {
 .got-container {
     column-width: auto;
     background-color: transparent;
-
+    margin-bottom: 200px;
 }
 
 .got-title {
