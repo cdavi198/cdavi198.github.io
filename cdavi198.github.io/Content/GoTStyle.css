@@ -36,7 +36,7 @@ h1 {
     grid-column-gap: 10px;
     grid-row-gap: 5px;
     /*margin: 1em;*/
-    background-color: transparent;
+    background-color: rgb(249,250,249,.4);
     
 }
 
