@@ -1,5 +1,5 @@
 var TableData = new Array();
-
+debugger;
 $('#gotTable tr').each(function(row, tr){
   TableData[row]={
     "Character" : $(tr).find('td:eq(5)').text()
