@@ -39,439 +39,439 @@
     function CreateTableFromJSON() {
         var myBooks = [
             {
-  "Alys Karstark": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Arya Stark": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Beric Dondarrion": {
-    "Violence": "25",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "50",
-    "Food": "0",
-    "Total": "75"
-  },
-  "Bran Stark": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Brienne of Tarth": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Bronn": {
-    "Violence": "0",
-    "Sex/Nudity": "10",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "10"
-  },
-  "Cersei Lannister": {
-    "Violence": "0",
-    "Sex/Nudity": "15",
-    "Wits": "10",
-    "Status": "0",
-    "Food": "10",
-    "Total": "35"
-  },
-  "Daenerys Targaryen": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "20",
-    "Food": "0",
-    "Total": "20"
-  },
-  "Davos Seaworth": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Drogon": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Ebrose": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Eddison Tollett": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Edmure Tully": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Euron Greyjoy": {
-    "Violence": "0",
-    "Sex/Nudity": "20",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "20"
-  },
-  "Fergus": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Gendry": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Ghost": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Gilly": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Grey Worm": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Harry Strickland": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Hot Pie": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Jaime Lannister": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Jon Snow": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "5",
-    "Status": "20",
-    "Food": "0",
-    "Total": "25"
-  },
-  "Jorah Mormont": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Lyanna Mormont": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Martha": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Meera Reed": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Melisandre": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Missandei": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Ned Umber": {
-    "Violence": "25",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "25"
-  },
-  "Nora": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Nymeria (wolf)": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Podrick Payne": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Qhono": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Qyburn": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Rheagal": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Robett Glover": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Robin Arryn": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Samwell Tarly": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Sansa Stark": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "20",
-    "Food": "0",
-    "Total": "20"
-  },
-  "Sarra": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "The Hound": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "The Mountain": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "The Night King": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Theon Greyjoy": {
-    "Violence": "20",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "20"
-  },
-  "Tormund Giantsbane": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "5",
-    "Status": "0",
-    "Food": "0",
-    "Total": "5"
-  },
-  "Tycho Nestoris": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Tyrion Lannister": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "5",
-    "Status": "0",
-    "Food": "0",
-    "Total": "5"
-  },
-  "Varys": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Viserion": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Willa": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Wolkan": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Yara Greyjoy": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  },
-  "Yohn Royce": {
-    "Violence": "0",
-    "Sex/Nudity": "0",
-    "Wits": "0",
-    "Status": "0",
-    "Food": "0",
-    "Total": "0"
-  }
-}
+              "Alys Karstark": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Arya Stark": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Beric Dondarrion": {
+                "Violence": "25",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "50",
+                "Food": "0",
+                "Total": "75"
+              },
+              "Bran Stark": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Brienne of Tarth": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Bronn": {
+                "Violence": "0",
+                "Sex/Nudity": "10",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "10"
+              },
+              "Cersei Lannister": {
+                "Violence": "0",
+                "Sex/Nudity": "15",
+                "Wits": "10",
+                "Status": "0",
+                "Food": "10",
+                "Total": "35"
+              },
+              "Daenerys Targaryen": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "20",
+                "Food": "0",
+                "Total": "20"
+              },
+              "Davos Seaworth": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Drogon": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Ebrose": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Eddison Tollett": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Edmure Tully": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Euron Greyjoy": {
+                "Violence": "0",
+                "Sex/Nudity": "20",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "20"
+              },
+              "Fergus": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Gendry": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Ghost": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Gilly": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Grey Worm": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Harry Strickland": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Hot Pie": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Jaime Lannister": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Jon Snow": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "5",
+                "Status": "20",
+                "Food": "0",
+                "Total": "25"
+              },
+              "Jorah Mormont": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Lyanna Mormont": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Martha": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Meera Reed": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Melisandre": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Missandei": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Ned Umber": {
+                "Violence": "25",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "25"
+              },
+              "Nora": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Nymeria (wolf)": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Podrick Payne": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Qhono": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Qyburn": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Rheagal": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Robett Glover": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Robin Arryn": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Samwell Tarly": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Sansa Stark": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "20",
+                "Food": "0",
+                "Total": "20"
+              },
+              "Sarra": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "The Hound": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "The Mountain": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "The Night King": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Theon Greyjoy": {
+                "Violence": "20",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "20"
+              },
+              "Tormund Giantsbane": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "5",
+                "Status": "0",
+                "Food": "0",
+                "Total": "5"
+              },
+              "Tycho Nestoris": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Tyrion Lannister": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "5",
+                "Status": "0",
+                "Food": "0",
+                "Total": "5"
+              },
+              "Varys": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Viserion": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Willa": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Wolkan": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Yara Greyjoy": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              },
+              "Yohn Royce": {
+                "Violence": "0",
+                "Sex/Nudity": "0",
+                "Wits": "0",
+                "Status": "0",
+                "Food": "0",
+                "Total": "0"
+              }
+            }
         ]
 
         // EXTRACT VALUE FOR HTML HEADER.
